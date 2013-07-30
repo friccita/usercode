@@ -1,0 +1,22 @@
+<use name="FWCore/Framework"/>
+<use name="FWCore/PluginManager"/>
+<use name="FWCore/ParameterSet"/>
+<use name="DataFormats/TrackReco"/>
+<use name="DataFormats/JetReco"/>
+<use name="CommonTools/UtilAlgos"/>
+<use name="PhysicsTools/UtilAlgos"/>
+<use name="DataFormats/TauReco"/>
+<use name="BoostedTauAnalysis/Common"/>
+<use name="root"/>
+<use name="rootgraphics"/>
+<use name="DataFormats/Math"/>
+<flags EDM_PLUGIN="1"/>
+<export>
+   <use name="CleanJets/CleanJets"/>
+   <use name="CleanJets/CheckTauIsoCands"/>
+   <use name="FWCore/Framework"/>
+   <use name="FWCore/PluginManager"/>
+   <use name="FWCore/ParameterSet"/>
+   <use name="DataFormats/JetReco"/>
+   <lib name="1"/>
+</export>
